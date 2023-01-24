@@ -3,19 +3,11 @@ function  outputData = CBL_model(ustar, wstar, L, z_i, z0)
 
 [np, zmin,zmax, xmin, xmax, deltstart, C0, threshold, depositions] = modelingParameters(z_i, z0);
 
-% If plotting concentration:
+% If plotting:
 %
 numParticlePaths = min(np, 500);
 X = cell(1,numParticlePaths);
 Z = cell(1,numParticlePaths);
-% TEMP
-%{
-    WP = cell(1,numParticlePaths);
-    PE = cell(1,numParticlePaths);
-    PBexp = cell(1,numParticlePaths);
-    t = tiledlayout(5,1);
-%}
-
 zgridCellSize = (zmax - zmin)/500;             % meters
 xgridCellSize = (xmax - xmin)/5000;
 [xgrid, zgrid, xgridConstant, zgridConstant, pgrid] = makeGrid(xmin, xmax,zmin, zmax, xgridCellSize,zgridCellSize);
@@ -46,14 +38,16 @@ for p = 1:np                %release particles in loop
 
     %% Update particle state
     while in_domain
-        % If plotting concentration:
+        % If plotting:
         %
             i = floor(x/xgridCellSize - xgridConstant);
             j = floor(z/zgridCellSize - zgridConstant);
             pgrid(i,j) = pgrid(i,j) + dt;        
+            if p < numParticlePaths % save the paths of first n particles
+                X{p}(end+1) = x;
+                Z{p}(end+1) = z;
+            end
         %}
-        
-
 
         
         % find x,z position increment
@@ -65,17 +59,7 @@ for p = 1:np                %release particles in loop
         x = x + dx;
         z = z + dz;
         
-        % if plotting concentration:
-        %
-            if p < numParticlePaths % save the paths of first n particles
-                X{p}(end+1) = x;
-                Z{p}(end+1) = z;
-                % TEMP
-                %{
-                WP{p}(end+1) = wp;
-                %}
-            end
-        %}
+
 
         % if particle goes above PBL layer, reflect velocity and
         % compute position ("perfect reflection")
@@ -103,21 +87,11 @@ for p = 1:np                %release particles in loop
                 dsigB, dA , dB, eps, sigu, ubar, dt]...
                 = CBL_windstats(ustar, wstar, L, z_i, z0, C0, z);
             
-            % TEMP - commented out!
-            %
+
             % get langevin coefficients
             [au, bu, aw, bw] = CBL_coeffs(wp, up, wA_bar, wB_bar, sigA,...
                sigB, A, B, dwA_bar, dwB_bar, dsigA, dsigB, dA , dB,...
                C0, eps, sigu, v_s);
-            %}
-
-            % TEMP
-            %{
-            [au, bu, aw, bw, P_A, P_B,P_E] = test_CBL_coeffs(wp, up, wA_bar, wB_bar, sigA, sigB, A, B, dwA_bar, dwB_bar, dsigA, dsigB, dA , dB, C0, eps, sigu, v_s);
-            PE{p}(end+1) = P_E;
-            PBexp{p}(end+1) = P_B;
-            %}
-
 
             % find u,w velocity increments (langevin equation)
             dup = au*dt + bu*randn*sqrt(dt);
@@ -133,29 +107,6 @@ for p = 1:np                %release particles in loop
         np = p;
         break
     end
-    % TEMP
-    %{
-        nexttile(1)
-        plot(X{p},Z{p})
-        xlabel('x (m)')
-        ylabel('Z (m)')
-        hold on
-        nexttile(2)
-        plot(X{p},WP{p})
-        xlabel('x (m)')
-        ylabel('wp (m/s)')
-        hold on
-        nexttile(3)
-        plot(X{p}(1:end-1),PBexp{p})
-        xlabel('x (m)')
-        ylabel('pb exp < 5 thresh')
-        hold on
-        nexttile(4)
-        plot(X{p}(1:end-1),PE{p})
-        xlabel('x (m)')
-        ylabel('PE')
-        hold on        
-    %}
 end
 
 
@@ -219,7 +170,7 @@ outputData = {[r_crit,r_critdep,percdep,np,...
 
 
 
-% If plotting concentration only
+% If plotting:
 %
 outputData = {outputData{1,1},[0,zgrid;xgrid',pgrid],[depositions',depcdf'],X,Z};
 

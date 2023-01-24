@@ -3,9 +3,9 @@ function outputData = ASL_model(ustar, ~, L, z_i, z0)
 
 [np, zmin,zmax, xmin, xmax, deltstart, ~, threshold, depositions] = modelingParameters(z_i, z0);
 
-% If plotting concentration:
+% If plotting:
 %
-numParticlePaths = min(np, 100);
+numParticlePaths = min(np, 500);
 X = cell(1,numParticlePaths);
 Z = cell(1,numParticlePaths);
 zgridCellSize = (zmax - zmin)/500;             % meters
@@ -36,11 +36,15 @@ for p = 1:np
     
     %% Update particle state
     while in_domain
-        % If plotting concentration:
+        % If plotting:
         %
             i = floor(x/xgridCellSize - xgridConstant);
             j = floor(z/zgridCellSize - zgridConstant);
             pgrid(i,j) = pgrid(i,j) + dt;        
+            if p < numParticlePaths % save the paths of first n particles
+                X{p}(end+1) = x;
+                Z{p}(end+1) = z;
+            end
         %}
         
         dx = (up + ubar)*dt;
@@ -49,14 +53,6 @@ for p = 1:np
         x = x + dx;
         z = z + dz;
         t = t + dt;
-
-        % if plotting concentration:
-        %
-            if p < numParticlePaths % save the paths of first n particles
-                X{p}(end+1) = x;
-                Z{p}(end+1) = z;
-            end
-        %}
 
 
         
@@ -152,9 +148,10 @@ outputData = {[r_crit,r_critdep,percdep,np,...
 
 
 
-% If plotting concentration only
+% If plotting:
 %
 outputData = {outputData{1,1},[0,zgrid;xgrid',pgrid],[depositions',depcdf'],X,Z};
+
 
 %}
   
