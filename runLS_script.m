@@ -7,6 +7,7 @@
 % uncommented "a very bad case to plot" line in chooseCasesToRun and
 % commented out monthly averages times
 % changed output folder to something else
+% AM I ON A BRANCH?
 
 clear all
 
