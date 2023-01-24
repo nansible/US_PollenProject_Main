@@ -1,6 +1,6 @@
+% branch - MAIN
 % temporary change log 
 % 1_22_23 
-% parfor to for
 % uncommented all "if plotting concentration only" sections in this
 % script, ASL function, and CBL function
 % running specific county in chooseCounties
@@ -26,7 +26,8 @@ countiesToRun = chooseCounties;
 [countyResultsFile, timestring, inputvars, GEOID,outputFormat] = chooseCasesToRun(countiesToRun,InputFolder,OutputFolder);
 
 %%
-for c = 1:length(GEOID)
+tic
+parfor c = 1:length(GEOID)
     outputData = runLS(inputvars(c,:));
     
     countyfileID = fopen(countyResultsFile(c),'a');
@@ -35,10 +36,11 @@ for c = 1:length(GEOID)
     
     % If plotting concentration only
     %
-        writematrix(outputData{1,2},[OutputFolder,'plots/Concentration_',datestr(timestring(c,1), 'yyyy_mm_dd_hh'),'_',num2str(GEOID(c)),'.csv']);
-        writematrix(outputData{1,3},[OutputFolder,'plots/Deposition_',datestr(timestring(c,1), 'yyyy_mm_dd_hh'),'_',num2str(GEOID(c)),'.csv']);
-        writecell(outputData{1,4}',[OutputFolder,'plots/XPaths_',datestr(timestring(c,1), 'yyyy_mm_dd_hh'),'_',num2str(GEOID(c)),'.csv']);
-        writecell(outputData{1,5}',[OutputFolder,'plots/ZPaths_',datestr(timestring(c,1), 'yyyy_mm_dd_hh'),'_',num2str(GEOID(c)),'.csv']);
+        %writematrix(outputData{1,2},[OutputFolder,'plots/Concentration_',datestr(timestring(c,1), 'yyyy_mm_dd_hh'),'_',num2str(GEOID(c)),'.csv']);
+        %writematrix(outputData{1,3},[OutputFolder,'plots/Deposition_',datestr(timestring(c,1), 'yyyy_mm_dd_hh'),'_',num2str(GEOID(c)),'.csv']);
+        %writecell(outputData{1,4}',[OutputFolder,'plots/XPaths_',datestr(timestring(c,1), 'yyyy_mm_dd_hh'),'_',num2str(GEOID(c)),'.csv']);
+        %writecell(outputData{1,5}',[OutputFolder,'plots/ZPaths_',datestr(timestring(c,1), 'yyyy_mm_dd_hh'),'_',num2str(GEOID(c)),'.csv']);
+        
         % actually plot particle paths during run and save the figures
         %
             X = outputData{1,4};
@@ -53,7 +55,7 @@ for c = 1:length(GEOID)
             set(findall(gcf,'-property','FontSize'),'FontSize',16)
             title({'Particle Paths ';...
             ['GEOID = ', num2str(GEOID(c)),', ',datestr(timestring(c,1), 'mmmm yyyy, HHMM')]})
-            saveas(gcf,[OutputFolder,'plots/pathsPlotted_',datestr(timestring(c,1), 'yyyy_mm_dd_hh'),'_',num2str(GEOID(c)),'.fig'])
+            saveas(gcf,[OutputFolder,'plots/pathsPlotted_',datestr(timestring(c,1), 'yyyy_mm_dd_hh'),'_',num2str(GEOID(c)),'.jpg'])
 
         %}
             
@@ -64,7 +66,7 @@ for c = 1:length(GEOID)
 end
 
 
-
+toc
 
 
 

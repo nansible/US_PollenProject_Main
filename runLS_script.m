@@ -1,13 +1,5 @@
 % branch - MAIN
-% temporary change log 
-% 1_22_23 
-% parfor to for
-% uncommented all "if plotting concentration only" sections in this
-% script, ASL function, and CBL function
-% running specific county in chooseCounties
-% uncommented "a very bad case to plot" line in chooseCasesToRun and
-% commented out monthly averages times
-% changed output folder to something else
+
 
 clear all
 
@@ -15,8 +7,8 @@ clear all
 %InputFolder =  'CountyTimeSeries_2016/';
 %OutputFolder =  'LSModelOutput/plotting';
 InputFolder = 'MeanCountyTimeSeries_2016/mean_';
-%OutputFolder =  'LSModelOutput_mean_fixed/mean_';
-OutputFolder = 'plotMeanCases/mean_';
+OutputFolder =  'LSModelOutput_mean_fixed/mean_';
+%OutputFolder = 'plotMeanCases/mean_';
 %% Choose which counties to run
 % modify to run all cases > 100 acres of hemp
 countiesToRun = chooseCounties;
@@ -28,7 +20,7 @@ countiesToRun = chooseCounties;
 
 %%
 tic
-for c = 1:length(GEOID)
+parfor c = 1:length(GEOID)
     outputData = runLS(inputvars(c,:));
     
     countyfileID = fopen(countyResultsFile(c),'a');
