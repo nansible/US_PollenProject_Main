@@ -1,4 +1,6 @@
 function  outputData = CBL_model(ustar, wstar, L, z_i, z0)
+% Branch - find Scope of Rogue Vels Problem
+
 [h0, v_s] = plantParameters;
 
 [np, zmin,zmax, xmin, xmax, deltstart, C0, threshold, depositions] = modelingParameters(z_i, z0);
