@@ -1,0 +1,313 @@
+
+*.csv
+CountyTimeSeries_2016/.DS_Store
+CountyMapsAndCode_2016/someTextToAddToMaps_1_21_22/rcrit.png
+CountyMapsAndCode_2016/someTextToAddToMaps_1_21_22/% deposited within 50 km.png
+CountyMapsAndCode_2016/preliminarymaps/USCounties_rcrit_deposited.qgs.qgz
+CountyMapsAndCode_2016/preliminarymaps/USCounties_MOLI.qgs.qgz
+CountyMapsAndCode_2016/preliminarymaps/hempplot_10_21_22/countiesWithHempOct32022.jpg
+CountyMapsAndCode_2016/preliminarymaps/HempInUSCounties2016_attachments.zip
+CountyMapsAndCode_2016/preliminarymaps/HempInUSCounties2016.qgs~
+CountyMapsAndCode_2016/preliminarymaps/HempInUSCounties2016.qgs
+CountyMapsAndCode_2016/preliminarymaps/HempInUSCounties2016.png
+CountyMapsAndCode_2016/preliminarymaps/HempInUSCounties2016.pgw
+CountyMapsAndCode_2016/preliminarymaps/HempByUSCountyOct2022.png
+CountyMapsAndCode_2016/preliminarymaps/HempByUSCounty2016.svg
+CountyMapsAndCode_2016/preliminarymaps/HempByUSCounty2016.png
+CountyMapsAndCode_2016/preliminarymaps/HempByUSCounty2016.pdf
+CountyMapsAndCode_2016/preliminarymaps/countymap_sep22_12_2016_noon.pdf
+CountyMapsAndCode_2016/preliminarymaps/analysis2/timeseriesanalysis/Warren County, NC --- southeast.jpg
+CountyMapsAndCode_2016/preliminarymaps/analysis2/timeseriesanalysis/Ripley County, IN --- ohio valley.jpg
+CountyMapsAndCode_2016/preliminarymaps/analysis2/timeseriesanalysis/Morrow County, OR --- northwest.jpg
+CountyMapsAndCode_2016/preliminarymaps/analysis2/timeseriesanalysis/Montrose County, CO --- southwest.jpg
+CountyMapsAndCode_2016/preliminarymaps/analysis2/timeseriesanalysis/Lubbock County, TX --- south.jpg
+CountyMapsAndCode_2016/preliminarymaps/analysis2/timeseriesanalysis/cumhistogram - Warren County, NC --- southeast.jpg
+CountyMapsAndCode_2016/preliminarymaps/analysis2/timeseriesanalysis/cumhistogram - Ripley County, IN --- ohio valley.jpg
+CountyMapsAndCode_2016/preliminarymaps/analysis2/timeseriesanalysis/cumhistogram - Morrow County, OR --- northwest.jpg
+CountyMapsAndCode_2016/preliminarymaps/analysis2/timeseriesanalysis/cumhistogram - Montrose County, CO --- southwest.jpg
+CountyMapsAndCode_2016/preliminarymaps/analysis2/timeseriesanalysis/cumhistogram - Lubbock County, TX --- south.jpg
+CountyMapsAndCode_2016/preliminarymaps/analysis2/timeseriesanalysis/cumhistogram - Carter County, MT --- northern rockies & plains.jpg
+CountyMapsAndCode_2016/preliminarymaps/analysis2/timeseriesanalysis/cumhistogram - Alameda County, CA --- west.jpg
+CountyMapsAndCode_2016/preliminarymaps/analysis2/timeseriesanalysis/cumhistogram - Adams County, WI --- upper midwest.jpg
+CountyMapsAndCode_2016/preliminarymaps/analysis2/timeseriesanalysis/Carter County, MT --- northern rockies & plains.jpg
+CountyMapsAndCode_2016/preliminarymaps/analysis2/timeseriesanalysis/Alameda County, CA --- west.jpg
+CountyMapsAndCode_2016/preliminarymaps/analysis2/timeseriesanalysis/Adams County, WI --- upper midwest.jpg
+CountyMapsAndCode_2016/preliminarymaps/analysis2/timeseriesanalysis/.DS_Store
+CountyMapsAndCode_2016/preliminarymaps/analysis2/Separating day:night for counties in noaa zones 11:23:22/temp_addAnalysis2ResultsToShapeFile.m
+CountyMapsAndCode_2016/preliminarymaps/analysis2/Separating day:night for counties in noaa zones 11:23:22/NIGHTtimeseries - Warren County, NC --- southeast.jpg
+CountyMapsAndCode_2016/preliminarymaps/analysis2/Separating day:night for counties in noaa zones 11:23:22/NIGHTtimeseries - Ripley County, IN --- ohio valley.jpg
+CountyMapsAndCode_2016/preliminarymaps/analysis2/Separating day:night for counties in noaa zones 11:23:22/NIGHTtimeseries - Morrow County, OR --- northwest.jpg
+CountyMapsAndCode_2016/preliminarymaps/analysis2/Separating day:night for counties in noaa zones 11:23:22/NIGHTtimeseries - Montrose County, CO --- southwest.jpg
+CountyMapsAndCode_2016/preliminarymaps/analysis2/Separating day:night for counties in noaa zones 11:23:22/NIGHTtimeseries - Lubbock County, TX --- south.jpg
+CountyMapsAndCode_2016/preliminarymaps/analysis2/Separating day:night for counties in noaa zones 11:23:22/NIGHTtimeseries - Carter County, MT --- northern rockies & plains.jpg
+CountyMapsAndCode_2016/preliminarymaps/analysis2/Separating day:night for counties in noaa zones 11:23:22/NIGHTtimeseries - Alameda County, CA --- west.jpg
+CountyMapsAndCode_2016/preliminarymaps/analysis2/Separating day:night for counties in noaa zones 11:23:22/NIGHTtimeseries - Adams County, WI --- upper midwest.jpg
+CountyMapsAndCode_2016/preliminarymaps/analysis2/Separating day:night for counties in noaa zones 11:23:22/NIGHTcumhistogram - Warren County, NC --- southeast.jpg
+CountyMapsAndCode_2016/preliminarymaps/analysis2/Separating day:night for counties in noaa zones 11:23:22/NIGHTcumhistogram - Ripley County, IN --- ohio valley.jpg
+CountyMapsAndCode_2016/preliminarymaps/analysis2/Separating day:night for counties in noaa zones 11:23:22/NIGHTcumhistogram - Morrow County, OR --- northwest.jpg
+CountyMapsAndCode_2016/preliminarymaps/analysis2/Separating day:night for counties in noaa zones 11:23:22/NIGHTcumhistogram - Montrose County, CO --- southwest.jpg
+CountyMapsAndCode_2016/preliminarymaps/analysis2/Separating day:night for counties in noaa zones 11:23:22/NIGHTcumhistogram - Lubbock County, TX --- south.jpg
+CountyMapsAndCode_2016/preliminarymaps/analysis2/Separating day:night for counties in noaa zones 11:23:22/NIGHTcumhistogram - Carter County, MT --- northern rockies & plains.jpg
+CountyMapsAndCode_2016/preliminarymaps/analysis2/Separating day:night for counties in noaa zones 11:23:22/NIGHTcumhistogram - Alameda County, CA --- west.jpg
+CountyMapsAndCode_2016/preliminarymaps/analysis2/Separating day:night for counties in noaa zones 11:23:22/NIGHTcumhistogram - Adams County, WI --- upper midwest.jpg
+CountyMapsAndCode_2016/preliminarymaps/analysis2/Separating day:night for counties in noaa zones 11:23:22/DAYtimeseries - Warren County, NC --- southeast.jpg
+CountyMapsAndCode_2016/preliminarymaps/analysis2/Separating day:night for counties in noaa zones 11:23:22/DAYtimeseries - Ripley County, IN --- ohio valley.jpg
+CountyMapsAndCode_2016/preliminarymaps/analysis2/Separating day:night for counties in noaa zones 11:23:22/DAYtimeseries - Morrow County, OR --- northwest.jpg
+CountyMapsAndCode_2016/preliminarymaps/analysis2/Separating day:night for counties in noaa zones 11:23:22/DAYtimeseries - Montrose County, CO --- southwest.jpg
+CountyMapsAndCode_2016/preliminarymaps/analysis2/Separating day:night for counties in noaa zones 11:23:22/DAYtimeseries - Lubbock County, TX --- south.jpg
+CountyMapsAndCode_2016/preliminarymaps/analysis2/Separating day:night for counties in noaa zones 11:23:22/DAYtimeseries - Carter County, MT --- northern rockies & plains.jpg
+CountyMapsAndCode_2016/preliminarymaps/analysis2/Separating day:night for counties in noaa zones 11:23:22/DAYtimeseries - Alameda County, CA --- west.jpg
+CountyMapsAndCode_2016/preliminarymaps/analysis2/Separating day:night for counties in noaa zones 11:23:22/DAYtimeseries - Adams County, WI --- upper midwest.jpg
+CountyMapsAndCode_2016/preliminarymaps/analysis2/Separating day:night for counties in noaa zones 11:23:22/DAYcumhistogram - Warren County, NC --- southeast.jpg
+CountyMapsAndCode_2016/preliminarymaps/analysis2/Separating day:night for counties in noaa zones 11:23:22/DAYcumhistogram - Ripley County, IN --- ohio valley.jpg
+CountyMapsAndCode_2016/preliminarymaps/analysis2/Separating day:night for counties in noaa zones 11:23:22/DAYcumhistogram - Morrow County, OR --- northwest.jpg
+CountyMapsAndCode_2016/preliminarymaps/analysis2/Separating day:night for counties in noaa zones 11:23:22/DAYcumhistogram - Montrose County, CO --- southwest.jpg
+CountyMapsAndCode_2016/preliminarymaps/analysis2/Separating day:night for counties in noaa zones 11:23:22/DAYcumhistogram - Lubbock County, TX --- south.jpg
+CountyMapsAndCode_2016/preliminarymaps/analysis2/Separating day:night for counties in noaa zones 11:23:22/DAYcumhistogram - Carter County, MT --- northern rockies & plains.jpg
+CountyMapsAndCode_2016/preliminarymaps/analysis2/Separating day:night for counties in noaa zones 11:23:22/DAYcumhistogram - Alameda County, CA --- west.jpg
+CountyMapsAndCode_2016/preliminarymaps/analysis2/Separating day:night for counties in noaa zones 11:23:22/DAYcumhistogram - Adams County, WI --- upper midwest.jpg
+CountyMapsAndCode_2016/preliminarymaps/analysis2/averagercritdep_greater100acres.svg
+CountyMapsAndCode_2016/preliminarymaps/analysis2/.DS_Store
+CountyMapsAndCode_2016/preliminarymaps/analysis1/rcritdep_county_9_22_12_00.svg
+CountyMapsAndCode_2016/preliminarymaps/analysis1/rcritdep_county_9_22_12_00.png
+CountyMapsAndCode_2016/preliminarymaps/analysis1/rcritdep_county_9_22_00_00.svg
+CountyMapsAndCode_2016/preliminarymaps/analysis1/rcritdep_county_9_22_00_00.png
+CountyMapsAndCode_2016/preliminarymaps/analysis1/rcritdep_county_8_20_12_00.svg
+CountyMapsAndCode_2016/preliminarymaps/analysis1/rcritdep_county_8_20_12_00.png
+CountyMapsAndCode_2016/preliminarymaps/analysis1/rcritdep_county_8_20_00_00.svg
+CountyMapsAndCode_2016/preliminarymaps/analysis1/rcritdep_county_8_20_00_00.png
+CountyMapsAndCode_2016/preliminarymaps/analysis1/rcritdep_county_7_20_12_00.svg
+CountyMapsAndCode_2016/preliminarymaps/analysis1/rcritdep_county_7_20_12_00.png
+CountyMapsAndCode_2016/preliminarymaps/analysis1/rcritdep_county_7_20_00_00.svg
+CountyMapsAndCode_2016/preliminarymaps/analysis1/rcritdep_county_7_20_00_00.png
+CountyMapsAndCode_2016/preliminarymaps/analysis1/rcritdep_county_11_20_12_00.svg
+CountyMapsAndCode_2016/preliminarymaps/analysis1/rcritdep_county_11_20_12_00.png
+CountyMapsAndCode_2016/preliminarymaps/analysis1/rcritdep_county_11_20_00_00.svg
+CountyMapsAndCode_2016/preliminarymaps/analysis1/rcritdep_county_11_20_00_00.png
+CountyMapsAndCode_2016/preliminarymaps/analysis1/rcritdep_county_10_20_12_00.svg
+CountyMapsAndCode_2016/preliminarymaps/analysis1/rcritdep_county_10_20_12_00.png
+CountyMapsAndCode_2016/preliminarymaps/analysis1/rcritdep_county_10_20_00_00.svg
+CountyMapsAndCode_2016/preliminarymaps/analysis1/rcritdep_county_10_20_00_00.png
+CountyMapsAndCode_2016/preliminarymaps/analysis1/percdep_meancounties/NovNoonPercdep.pdf
+CountyMapsAndCode_2016/preliminarymaps/analysis1/meancounties_sept1200.svg
+CountyMapsAndCode_2016/preliminarymaps/analysis1/meancounties_sept1200.png
+CountyMapsAndCode_2016/preliminarymaps/analysis1/meancounties_sept0000.svg
+CountyMapsAndCode_2016/preliminarymaps/analysis1/meancounties_sept0000.png
+CountyMapsAndCode_2016/preliminarymaps/analysis1/meancounties_oct1200.svg
+CountyMapsAndCode_2016/preliminarymaps/analysis1/meancounties_oct1200.png
+CountyMapsAndCode_2016/preliminarymaps/analysis1/meancounties_oct0000.svg
+CountyMapsAndCode_2016/preliminarymaps/analysis1/meancounties_oct0000.png
+CountyMapsAndCode_2016/preliminarymaps/analysis1/meancounties_nov1200.svg
+CountyMapsAndCode_2016/preliminarymaps/analysis1/meancounties_nov1200.png
+CountyMapsAndCode_2016/preliminarymaps/analysis1/meancounties_nov0000.svg
+CountyMapsAndCode_2016/preliminarymaps/analysis1/meancounties_nov0000.png
+CountyMapsAndCode_2016/preliminarymaps/analysis1/meancounties_jul_1200.svg
+CountyMapsAndCode_2016/preliminarymaps/analysis1/meancounties_jul_1200.png
+CountyMapsAndCode_2016/preliminarymaps/analysis1/meancounties_jul_0000.svg
+CountyMapsAndCode_2016/preliminarymaps/analysis1/meancounties_jul_0000.png
+CountyMapsAndCode_2016/preliminarymaps/analysis1/meancounties_aug1200.svg
+CountyMapsAndCode_2016/preliminarymaps/analysis1/meancounties_aug1200.png
+CountyMapsAndCode_2016/preliminarymaps/analysis1/meancounties_aug0000.svg
+CountyMapsAndCode_2016/preliminarymaps/analysis1/meancounties_aug0000.png
+CountyMapsAndCode_2016/preliminarymaps/analysis1/mean params/averageparams - Warren County, NC --- southeast.jpg
+CountyMapsAndCode_2016/preliminarymaps/analysis1/mean params/averageparams - Ripley County, IN --- ohio valley.jpg
+CountyMapsAndCode_2016/preliminarymaps/analysis1/mean params/averageparams - Morrow County, OR --- northwest.jpg
+CountyMapsAndCode_2016/preliminarymaps/analysis1/mean params/averageparams - Montrose County, CO --- southwest.jpg
+CountyMapsAndCode_2016/preliminarymaps/analysis1/mean params/averageparams - Lubbock County, TX --- south.jpg
+CountyMapsAndCode_2016/preliminarymaps/analysis1/mean params/averageparams - Carter County, MT --- northern rockies & plains.jpg
+CountyMapsAndCode_2016/preliminarymaps/analysis1/mean params/averageparams - Albany County, NY --- northeast.jpg
+CountyMapsAndCode_2016/preliminarymaps/analysis1/mean params/averageparams - Alameda County, CA --- west.jpg
+CountyMapsAndCode_2016/preliminarymaps/analysis1/mean params/averageparams - Adams County, WI --- upper midwest.jpg
+CountyMapsAndCode_2016/preliminarymaps/analysis1/mean params/.DS_Store
+CountyMapsAndCode_2016/preliminarymaps/analysis1/.DS_Store
+CountyMapsAndCode_2016/preliminarymaps/.DS_Store
+CountyMapsAndCode_2016/plotInputParams.qgz
+CountyMapsAndCode_2016/percdep_style.qml
+CountyMapsAndCode_2016/MEANMONTHS_fixed9_1200.shx
+CountyMapsAndCode_2016/MEANMONTHS_fixed9_1200.shp
+CountyMapsAndCode_2016/MEANMONTHS_fixed9_1200.dbf
+CountyMapsAndCode_2016/MEANMONTHS_fixed9_0000.shx
+CountyMapsAndCode_2016/MEANMONTHS_fixed9_0000.shp
+CountyMapsAndCode_2016/MEANMONTHS_fixed9_0000.dbf
+CountyMapsAndCode_2016/MEANMONTHS_fixed8_1200.shx
+CountyMapsAndCode_2016/MEANMONTHS_fixed8_1200.shp
+CountyMapsAndCode_2016/MEANMONTHS_fixed8_1200.dbf
+CountyMapsAndCode_2016/MEANMONTHS_fixed8_0000.shx
+CountyMapsAndCode_2016/MEANMONTHS_fixed8_0000.shp
+CountyMapsAndCode_2016/MEANMONTHS_fixed8_0000.dbf
+CountyMapsAndCode_2016/MEANMONTHS_fixed7_1200.shx
+CountyMapsAndCode_2016/MEANMONTHS_fixed7_1200.shp
+CountyMapsAndCode_2016/MEANMONTHS_fixed7_1200.dbf
+CountyMapsAndCode_2016/MEANMONTHS_fixed7_0000.shx
+CountyMapsAndCode_2016/MEANMONTHS_fixed7_0000.shp
+CountyMapsAndCode_2016/MEANMONTHS_fixed7_0000.dbf
+CountyMapsAndCode_2016/MEANMONTHS_fixed11_1200.shx
+CountyMapsAndCode_2016/MEANMONTHS_fixed11_1200.shp
+CountyMapsAndCode_2016/MEANMONTHS_fixed11_1200.dbf
+CountyMapsAndCode_2016/MEANMONTHS_fixed11_0000.shx
+CountyMapsAndCode_2016/MEANMONTHS_fixed11_0000.shp
+CountyMapsAndCode_2016/MEANMONTHS_fixed11_0000.dbf
+CountyMapsAndCode_2016/MEANMONTHS_fixed10_1200.shx
+CountyMapsAndCode_2016/MEANMONTHS_fixed10_1200.shp
+CountyMapsAndCode_2016/MEANMONTHS_fixed10_1200.dbf
+CountyMapsAndCode_2016/MEANMONTHS_fixed10_0000.shx
+CountyMapsAndCode_2016/MEANMONTHS_fixed10_0000.shp
+CountyMapsAndCode_2016/MEANMONTHS_fixed10_0000.dbf
+CountyMapsAndCode_2016/MEANMONTHS_counties_2016_CONUS_9_1200.shx
+CountyMapsAndCode_2016/MEANMONTHS_counties_2016_CONUS_9_1200.shp
+CountyMapsAndCode_2016/MEANMONTHS_counties_2016_CONUS_9_1200.dbf
+CountyMapsAndCode_2016/MEANMONTHS_counties_2016_CONUS_9_0000.shx
+CountyMapsAndCode_2016/MEANMONTHS_counties_2016_CONUS_9_0000.shp
+CountyMapsAndCode_2016/MEANMONTHS_counties_2016_CONUS_9_0000.dbf
+CountyMapsAndCode_2016/MEANMONTHS_counties_2016_CONUS_8_1200.shx
+CountyMapsAndCode_2016/MEANMONTHS_counties_2016_CONUS_8_1200.shp
+CountyMapsAndCode_2016/MEANMONTHS_counties_2016_CONUS_8_1200.dbf
+CountyMapsAndCode_2016/MEANMONTHS_counties_2016_CONUS_8_0000.shx
+CountyMapsAndCode_2016/MEANMONTHS_counties_2016_CONUS_8_0000.shp
+CountyMapsAndCode_2016/MEANMONTHS_counties_2016_CONUS_8_0000.dbf
+CountyMapsAndCode_2016/MEANMONTHS_counties_2016_CONUS_7_1200.shx
+CountyMapsAndCode_2016/MEANMONTHS_counties_2016_CONUS_7_1200.shp
+CountyMapsAndCode_2016/MEANMONTHS_counties_2016_CONUS_7_1200.dbf
+CountyMapsAndCode_2016/MEANMONTHS_counties_2016_CONUS_7_0000.shx
+CountyMapsAndCode_2016/MEANMONTHS_counties_2016_CONUS_7_0000.shp
+CountyMapsAndCode_2016/MEANMONTHS_counties_2016_CONUS_7_0000.dbf
+CountyMapsAndCode_2016/MEANMONTHS_counties_2016_CONUS_11_1200.shx
+CountyMapsAndCode_2016/MEANMONTHS_counties_2016_CONUS_11_1200.shp
+CountyMapsAndCode_2016/MEANMONTHS_counties_2016_CONUS_11_1200.dbf
+CountyMapsAndCode_2016/MEANMONTHS_counties_2016_CONUS_11_0000.shx
+CountyMapsAndCode_2016/MEANMONTHS_counties_2016_CONUS_11_0000.shp
+CountyMapsAndCode_2016/MEANMONTHS_counties_2016_CONUS_11_0000.dbf
+CountyMapsAndCode_2016/MEANMONTHS_counties_2016_CONUS_10_1200.shx
+CountyMapsAndCode_2016/MEANMONTHS_counties_2016_CONUS_10_1200.shp
+CountyMapsAndCode_2016/MEANMONTHS_counties_2016_CONUS_10_1200.dbf
+CountyMapsAndCode_2016/MEANMONTHS_counties_2016_CONUS_10_0000.shx
+CountyMapsAndCode_2016/MEANMONTHS_counties_2016_CONUS_10_0000.shp
+CountyMapsAndCode_2016/MEANMONTHS_counties_2016_CONUS_10_0000.dbf
+CountyMapsAndCode_2016/fixed_counties_2016_CONUS_9_22_12_00.shx
+CountyMapsAndCode_2016/fixed_counties_2016_CONUS_9_22_12_00.shp
+CountyMapsAndCode_2016/fixed_counties_2016_CONUS_9_22_12_00.dbf
+CountyMapsAndCode_2016/fixed_counties_2016_CONUS_9_22_00_00.shx
+CountyMapsAndCode_2016/fixed_counties_2016_CONUS_9_22_00_00.shp
+CountyMapsAndCode_2016/fixed_counties_2016_CONUS_9_22_00_00.dbf
+CountyMapsAndCode_2016/fixed_counties_2016_CONUS_8_20_12_0_0.shx
+CountyMapsAndCode_2016/fixed_counties_2016_CONUS_8_20_12_0_0.shp
+CountyMapsAndCode_2016/fixed_counties_2016_CONUS_8_20_12_0_0.dbf
+CountyMapsAndCode_2016/fixed_counties_2016_CONUS_8_20_00_0_0.shx
+CountyMapsAndCode_2016/fixed_counties_2016_CONUS_8_20_00_0_0.shp
+CountyMapsAndCode_2016/fixed_counties_2016_CONUS_8_20_00_0_0.dbf
+CountyMapsAndCode_2016/fixed_counties_2016_CONUS_7_20_12_0_0.shx
+CountyMapsAndCode_2016/fixed_counties_2016_CONUS_7_20_12_0_0.shp
+CountyMapsAndCode_2016/fixed_counties_2016_CONUS_7_20_12_0_0.dbf
+CountyMapsAndCode_2016/fixed_counties_2016_CONUS_7_20_00_0_0.shx
+CountyMapsAndCode_2016/fixed_counties_2016_CONUS_7_20_00_0_0.shp
+CountyMapsAndCode_2016/fixed_counties_2016_CONUS_7_20_00_0_0.dbf
+CountyMapsAndCode_2016/fixed_counties_2016_CONUS_11_20_12_00.shx
+CountyMapsAndCode_2016/fixed_counties_2016_CONUS_11_20_12_00.shp
+CountyMapsAndCode_2016/fixed_counties_2016_CONUS_11_20_12_00.dbf
+CountyMapsAndCode_2016/fixed_counties_2016_CONUS_11_20_00_00.shx
+CountyMapsAndCode_2016/fixed_counties_2016_CONUS_11_20_00_00.shp
+CountyMapsAndCode_2016/fixed_counties_2016_CONUS_11_20_00_00.dbf
+CountyMapsAndCode_2016/fixed_counties_2016_CONUS_10_20_12_00.shx
+CountyMapsAndCode_2016/fixed_counties_2016_CONUS_10_20_12_00.shp
+CountyMapsAndCode_2016/fixed_counties_2016_CONUS_10_20_12_00.dbf
+CountyMapsAndCode_2016/fixed_counties_2016_CONUS_10_20_00_00.shx
+CountyMapsAndCode_2016/fixed_counties_2016_CONUS_10_20_00_00.shp
+CountyMapsAndCode_2016/fixed_counties_2016_CONUS_10_20_00_00.dbf
+CountyMapsAndCode_2016/Experimenting with arcgis online/MEANMONTHS_counties_2016_CONUS_9_1200.shx
+CountyMapsAndCode_2016/Experimenting with arcgis online/MEANMONTHS_counties_2016_CONUS_9_1200.shp
+CountyMapsAndCode_2016/Experimenting with arcgis online/MEANMONTHS_counties_2016_CONUS_9_1200.dbf
+CountyMapsAndCode_2016/Experimenting with arcgis online/MEANMONTHS_counties_2016_CONUS_9_0000.shx
+CountyMapsAndCode_2016/Experimenting with arcgis online/MEANMONTHS_counties_2016_CONUS_9_0000.shp
+CountyMapsAndCode_2016/Experimenting with arcgis online/MEANMONTHS_counties_2016_CONUS_9_0000.dbf
+CountyMapsAndCode_2016/Experimenting with arcgis online/MEANMONTHS_counties_2016_CONUS_8_1200.shx
+CountyMapsAndCode_2016/Experimenting with arcgis online/MEANMONTHS_counties_2016_CONUS_8_1200.shp
+CountyMapsAndCode_2016/Experimenting with arcgis online/MEANMONTHS_counties_2016_CONUS_8_1200.dbf
+CountyMapsAndCode_2016/Experimenting with arcgis online/MEANMONTHS_counties_2016_CONUS_8_0000.shx
+CountyMapsAndCode_2016/Experimenting with arcgis online/MEANMONTHS_counties_2016_CONUS_8_0000.shp
+CountyMapsAndCode_2016/Experimenting with arcgis online/MEANMONTHS_counties_2016_CONUS_8_0000.dbf
+CountyMapsAndCode_2016/Experimenting with arcgis online/MEANMONTHS_counties_2016_CONUS_7_1200.zip
+CountyMapsAndCode_2016/Experimenting with arcgis online/MEANMONTHS_counties_2016_CONUS_7_1200.shx
+CountyMapsAndCode_2016/Experimenting with arcgis online/MEANMONTHS_counties_2016_CONUS_7_1200.shp
+CountyMapsAndCode_2016/Experimenting with arcgis online/MEANMONTHS_counties_2016_CONUS_7_1200.dbf
+CountyMapsAndCode_2016/Experimenting with arcgis online/MEANMONTHS_counties_2016_CONUS_7_0000.zip
+CountyMapsAndCode_2016/Experimenting with arcgis online/MEANMONTHS_counties_2016_CONUS_7_0000.shx
+CountyMapsAndCode_2016/Experimenting with arcgis online/MEANMONTHS_counties_2016_CONUS_7_0000.shp
+CountyMapsAndCode_2016/Experimenting with arcgis online/MEANMONTHS_counties_2016_CONUS_7_0000.dbf
+CountyMapsAndCode_2016/Experimenting with arcgis online/MEANMONTHS_counties_2016_CONUS_11_1200.shx
+CountyMapsAndCode_2016/Experimenting with arcgis online/MEANMONTHS_counties_2016_CONUS_11_1200.shp
+CountyMapsAndCode_2016/Experimenting with arcgis online/MEANMONTHS_counties_2016_CONUS_11_1200.dbf
+CountyMapsAndCode_2016/Experimenting with arcgis online/MEANMONTHS_counties_2016_CONUS_11_0000.shx
+CountyMapsAndCode_2016/Experimenting with arcgis online/MEANMONTHS_counties_2016_CONUS_11_0000.shp
+CountyMapsAndCode_2016/Experimenting with arcgis online/MEANMONTHS_counties_2016_CONUS_11_0000.dbf
+CountyMapsAndCode_2016/Experimenting with arcgis online/MEANMONTHS_counties_2016_CONUS_10_1200.shx
+CountyMapsAndCode_2016/Experimenting with arcgis online/MEANMONTHS_counties_2016_CONUS_10_1200.shp
+CountyMapsAndCode_2016/Experimenting with arcgis online/MEANMONTHS_counties_2016_CONUS_10_1200.dbf
+CountyMapsAndCode_2016/Experimenting with arcgis online/MEANMONTHS_counties_2016_CONUS_10_0000.shx
+CountyMapsAndCode_2016/Experimenting with arcgis online/MEANMONTHS_counties_2016_CONUS_10_0000.shp
+CountyMapsAndCode_2016/Experimenting with arcgis online/MEANMONTHS_counties_2016_CONUS_10_0000.dbf
+CountyMapsAndCode_2016/Experimenting with arcgis online/.DS_Store
+CountyMapsAndCode_2016/counties_2016_CONUS_HEMPACRESOct2022.shx
+CountyMapsAndCode_2016/counties_2016_CONUS_HEMPACRESOct2022.shp
+CountyMapsAndCode_2016/counties_2016_CONUS_HEMPACRESOct2022.dbf
+CountyMapsAndCode_2016/counties_2016_CONUS_HEMPACRESJan2016.shx
+CountyMapsAndCode_2016/counties_2016_CONUS_HEMPACRESJan2016.shp
+CountyMapsAndCode_2016/counties_2016_CONUS_HEMPACRESJan2016.dbf
+CountyMapsAndCode_2016/counties_2016_CONUS.shx
+CountyMapsAndCode_2016/counties_2016_CONUS.shp
+CountyMapsAndCode_2016/counties_2016_CONUS.qgz
+CountyMapsAndCode_2016/counties_2016_CONUS.dbf
+CountyMapsAndCode_2016/CONUS_CLIMATE_DIVISIONS/GIS.OFFICIAL_CLIM_DIVISIONS.shx
+CountyMapsAndCode_2016/CONUS_CLIMATE_DIVISIONS/GIS.OFFICIAL_CLIM_DIVISIONS.shp.xml
+CountyMapsAndCode_2016/CONUS_CLIMATE_DIVISIONS/GIS.OFFICIAL_CLIM_DIVISIONS.shp
+CountyMapsAndCode_2016/CONUS_CLIMATE_DIVISIONS/GIS.OFFICIAL_CLIM_DIVISIONS.sbx
+CountyMapsAndCode_2016/CONUS_CLIMATE_DIVISIONS/GIS.OFFICIAL_CLIM_DIVISIONS.sbn
+CountyMapsAndCode_2016/CONUS_CLIMATE_DIVISIONS/GIS.OFFICIAL_CLIM_DIVISIONS.prj
+CountyMapsAndCode_2016/CONUS_CLIMATE_DIVISIONS/GIS.OFFICIAL_CLIM_DIVISIONS.dbf
+CountyMapsAndCode_2016/CONUS_CLIMATE_DIVISIONS/GIS.OFFICIAL_CLIM_DIVISIONS.cpg
+CountyMapsAndCode_2016/CONUS_CLIMATE_DIVISIONS/countiesToDivisions.txt
+CountyMapsAndCode_2016/CONUS_CLIMATE_DIVISIONS/countiesToDivisions.rtf.sb-8fc50403-bENxJM
+CountyMapsAndCode_2016/CONUS_CLIMATE_DIVISIONS/climateZones.shx
+CountyMapsAndCode_2016/CONUS_CLIMATE_DIVISIONS/climateZones.shp
+CountyMapsAndCode_2016/CONUS_CLIMATE_DIVISIONS/climateZones.prj
+CountyMapsAndCode_2016/CONUS_CLIMATE_DIVISIONS/climateZones.dbf
+CountyMapsAndCode_2016/CONUS_CLIMATE_DIVISIONS/climateZones.cpg
+CountyMapsAndCode_2016/CONUS_CLIMATE_DIVISIONS/climateRegions.qgz
+CountyMapsAndCode_2016/CONUS_CLIMATE_DIVISIONS/.DS_Store
+CountyMapsAndCode_2016/climateZonesStyle.qml
+CountyMapsAndCode_2016/cb_2021_us_state_20m/cb_2021_us_state_20m.shx
+CountyMapsAndCode_2016/cb_2021_us_state_20m/cb_2021_us_state_20m.shp.iso.xml
+CountyMapsAndCode_2016/cb_2021_us_state_20m/cb_2021_us_state_20m.shp.ea.iso.xml
+CountyMapsAndCode_2016/cb_2021_us_state_20m/cb_2021_us_state_20m.shp
+CountyMapsAndCode_2016/cb_2021_us_state_20m/cb_2021_us_state_20m.prj
+CountyMapsAndCode_2016/cb_2021_us_state_20m/cb_2021_us_state_20m.dbf
+CountyMapsAndCode_2016/cb_2021_us_state_20m/cb_2021_us_state_20m.cpg
+CountyMapsAndCode_2016/cb_2021_us_state_20m/.DS_Store
+CountyMapsAndCode_2016/cb_2021_us_county_20m/cb_2021_us_county_20m.shx
+CountyMapsAndCode_2016/cb_2021_us_county_20m/cb_2021_us_county_20m.shp.iso.xml
+CountyMapsAndCode_2016/cb_2021_us_county_20m/cb_2021_us_county_20m.shp.ea.iso.xml
+CountyMapsAndCode_2016/cb_2021_us_county_20m/cb_2021_us_county_20m.shp
+CountyMapsAndCode_2016/cb_2021_us_county_20m/cb_2021_us_county_20m.prj
+CountyMapsAndCode_2016/cb_2021_us_county_20m/cb_2021_us_county_20m.dbf
+CountyMapsAndCode_2016/cb_2021_us_county_20m/cb_2021_us_county_20m.cpg
+CountyMapsAndCode_2016/analysis2WithPercdep_CONUS.shx
+CountyMapsAndCode_2016/analysis2WithPercdep_CONUS.shp
+CountyMapsAndCode_2016/analysis2WithPercdep_CONUS.dbf
+CountyMapsAndCode_2016/analysis2_CONUS.shx
+CountyMapsAndCode_2016/analysis2_CONUS.shp
+CountyMapsAndCode_2016/analysis2_CONUS.qgz
+CountyMapsAndCode_2016/analysis2_CONUS.dbf
+CountyMapsAndCode_2016/analysis2_CONUS,.shx
+CountyMapsAndCode_2016/analysis2_CONUS,.shp
+CountyMapsAndCode_2016/analysis2_CONUS,.dbf
+CountyMapsAndCode_2016/analysis2.qgz
+CountyMapsAndCode_2016/analysis1_MEANMONTHS_percdep.qgz
+CountyMapsAndCode_2016/analysis1_MEANMONTHS.qgz
+CountyMapsAndCode_2016/.DS_Store
+LSModelOutput/.DS_Store
+LSModelOutput_mean/.DS_Store
+LSModelOutput_mean_fixed/.DS_Store
+MeanCountyTimeSeries_2016/.DS_Store
+plotMeanCases/.DS_Store
+plotMeanCases/mean_plots/.DS_Store
+plotMeanCases/mean_plots/pathsPlotted_2016_07_01_12_49027.fig
+plotMeanCases/mean_plots/pathsPlotted_2016_07_01_12_49027.jpg
