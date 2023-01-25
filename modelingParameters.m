@@ -6,11 +6,11 @@ function [np, zmin,zmax, xmin, xmax, deltstart, C0, threshold, depositions] = mo
 % zmin, domain lowest height. zmax, domain highest height is defined as z_i, the top of the CBL
 threshold = 99;
 C0 = 3;
-np = 100;           
+np = 10000;           
 % initialize array to store location of particle
 %depositions. Use NaN, not zero, to be able to distinguish between deposited particles and those which left the domain
 depositions = NaN(1,np);  
-zmin = z0;         
+zmin = z0*1.001;         
 %zmin = min(max(z0, 0.001*z_i),h0);         
 zmax = z_i*.99;                    
 xmin = -100;        % domain min x dir

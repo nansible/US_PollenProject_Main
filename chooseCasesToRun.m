@@ -2,7 +2,7 @@ function [countyResultsFile, timestring, inputvars, GEOID,outputFormat] = choose
 % Branch - find Scope of Rogue Vels Problem
 
 
-% a very bad case to plot
+% the first monthly average case - July NOON
 times = datetime(2016,7,1,12,0,0);
 
 %for analysis 2

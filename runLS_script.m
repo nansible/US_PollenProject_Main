@@ -36,7 +36,7 @@ for c = 1:length(GEOID)
         %
             X = outputData{1,4};
             Z = outputData{1,5};
-            figure
+            figure('visible','off');
             for thisPath = 1:length(X)
                 plot(X{thisPath},Z{thisPath})
                 hold on
