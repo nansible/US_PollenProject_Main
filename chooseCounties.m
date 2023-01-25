@@ -9,8 +9,8 @@ countiesToRun = read(ds);
 
 % find list of counties 
 %
-%countiesList = [4011, 4015, 6051,8003,8013,8027,8037,8043,8045,8049,8057,8059,8069,8071];
-countiesList = 4011;
+countiesList = [4011, 4015, 6051,8003,8013,8027,8037,8043,8045,8049,8057,8059,8069,8071];
+%countiesList = 4011;
 countiesToRun = countiesToRun(ismember(countiesToRun.GEOID,countiesList),:);
 %}
 

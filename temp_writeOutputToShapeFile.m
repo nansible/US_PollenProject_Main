@@ -34,7 +34,7 @@ timename = {'7_0000','7_1200',...
 % end
 
 %%
-for i = 2:length(times)
+for i = 1:length(times)
     for j = 1:length(GEOID)
         datafile = [OutputFolder,'mean_',num2str(GEOID(j)),'.csv'];
         if isfile(datafile)
