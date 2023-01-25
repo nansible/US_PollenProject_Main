@@ -5,12 +5,14 @@ function  outputData = CBL_model(ustar, wstar, L, z_i, z0)
 
 [np, zmin,zmax, xmin, xmax, deltstart, C0, threshold, depositions] = modelingParameters(z_i, z0);
 
-% If plotting concentration:
+% If plotting particle paths:
 %
 numParticlePaths = min(np, 500);
 X = cell(1,numParticlePaths);
 Z = cell(1,numParticlePaths);
-% TEMP
+%}
+
+% TEMP - plotting some extra things
 %{
     WP = cell(1,numParticlePaths);
     PE = cell(1,numParticlePaths);
@@ -18,10 +20,17 @@ Z = cell(1,numParticlePaths);
     t = tiledlayout(5,1);
 %}
 
+% If plotting concentration:
+%
 zgridCellSize = (zmax - zmin)/500;             % meters
 xgridCellSize = (xmax - xmin)/5000;
 [xgrid, zgrid, xgridConstant, zgridConstant, pgrid] = makeGrid(xmin, xmax,zmin, zmax, xgridCellSize,zgridCellSize);
 
+%}
+
+% TEMP - rogue vels
+% 
+    rogueVels = 0;
 %}
 
 
@@ -36,6 +45,12 @@ for p = 1:np                %release particles in loop
     x = 0;
     t = p*deltstart - deltstart;
     in_domain = 1;
+
+    % TEMP - rogue vels
+    %
+    threshcountA = 0;
+    threshcountB = 0;
+    %}
     
     % get initial wind statistics
     [wA_bar, wB_bar, sigA, sigB, A, B, ~, ~, ~, ~, ~ , ~, ~, sigu,...
@@ -49,7 +64,7 @@ for p = 1:np                %release particles in loop
     %% Update particle state
     while in_domain
         % If plotting concentration:
-        %
+        %{
             i = floor(x/xgridCellSize - xgridConstant);
             j = floor(z/zgridCellSize - zgridConstant);
             pgrid(i,j) = pgrid(i,j) + dt;        
@@ -67,7 +82,7 @@ for p = 1:np                %release particles in loop
         x = x + dx;
         z = z + dz;
         
-        % if plotting concentration:
+        % if plotting particle paths:
         %
             if p < numParticlePaths % save the paths of first n particles
                 X{p}(end+1) = x;
@@ -106,18 +121,26 @@ for p = 1:np                %release particles in loop
                 = CBL_windstats(ustar, wstar, L, z_i, z0, C0, z);
             
             % TEMP - commented out!
-            %
             % get langevin coefficients
+            %{
             [au, bu, aw, bw] = CBL_coeffs(wp, up, wA_bar, wB_bar, sigA,...
                sigB, A, B, dwA_bar, dwB_bar, dsigA, dsigB, dA , dB,...
                C0, eps, sigu, v_s);
             %}
 
-            % TEMP
+            % TEMP - plotting & roguevels
+            %
+            [au, bu, aw, bw, P_A_exp, P_B_exp,P_E,threshcountA, threshcountB]...
+                = test_CBL_coeffs(wp, up, wA_bar, wB_bar, sigA, sigB, A, B,...
+                dwA_bar, dwB_bar, dsigA, dsigB, dA , dB, C0, eps, sigu,...
+                v_s,threshcountA, threshcountB);
+            %}
+
+
+            % TEMP - plotting some extra things
             %{
-            [au, bu, aw, bw, P_A, P_B,P_E] = test_CBL_coeffs(wp, up, wA_bar, wB_bar, sigA, sigB, A, B, dwA_bar, dwB_bar, dsigA, dsigB, dA , dB, C0, eps, sigu, v_s);
             PE{p}(end+1) = P_E;
-            PBexp{p}(end+1) = P_B;
+            PBexp{p}(end+1) = P_B_exp;
             %}
 
 
@@ -135,25 +158,32 @@ for p = 1:np                %release particles in loop
         np = p;
         break
     end
-    % TEMP
+
+    % TEMP - roguevels
+    if threshcountA > 5 || threshcountB > 5 || wp > 10
+        rogueVels = rogueVels + 1;
+    end
+
+
+    % TEMP - plotting some things
     %{
         nexttile(1)
-        plot(X{p},Z{p})
+        plot(Z{p})
         xlabel('x (m)')
         ylabel('Z (m)')
         hold on
         nexttile(2)
-        plot(X{p},WP{p})
+        plot(WP{p})
         xlabel('x (m)')
         ylabel('wp (m/s)')
         hold on
         nexttile(3)
-        plot(X{p}(1:end-1),PBexp{p})
+        plot(PBexp{p})
         xlabel('x (m)')
         ylabel('pb exp < 5 thresh')
         hold on
         nexttile(4)
-        plot(X{p}(1:end-1),PE{p})
+        plot(PE{p})
         xlabel('x (m)')
         ylabel('PE')
         hold on        
@@ -214,7 +244,7 @@ end
 
 %% compile data for output
 
-outputData = {[r_crit,r_critdep,percdep,np,...
+outputData = {[rogueVels/np*100, r_crit,r_critdep,percdep,np,...
     pbeyond500m,pbeyond1km,pbeyond5km,pbeyond10km,pbeyond15km,pbeyond20km,...
     pbeyond25km,pbeyond30km,pbeyond35km,pbeyond40km,pbeyond45km,pbeyond50km ...
     v_s,h0,xmin, xmax,zmin, zmax,threshold,toc,string(datetime)]};

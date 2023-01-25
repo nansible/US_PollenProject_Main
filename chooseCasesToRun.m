@@ -1,4 +1,6 @@
 function [countyResultsFile, timestring, inputvars, GEOID,outputFormat] = chooseCasesToRun(countiesToRun,InputFolder,OutputFolder)
+% Branch - find Scope of Rogue Vels Problem
+
 
 % a very bad case to plot
 times = datetime(2016,7,1,12,0,0);

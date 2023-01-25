@@ -46,12 +46,11 @@ for c = 1:length(GEOID)
             set(findall(gcf,'-property','FontSize'),'FontSize',16)
             title({'Particle Paths ';...
             ['GEOID = ', num2str(GEOID(c)),', ',datestr(timestring(c,1), 'mmmm yyyy, HHMM')]})
-            saveas(gcf,[OutputFolder,'plots/pathsPlotted_',datestr(timestring(c,1), 'yyyy_mm_dd_hh'),'_',num2str(GEOID(c)),'.fig'])
+            saveas(gcf,[OutputFolder,'plots/pathsPlotted_',datestr(timestring(c,1), 'yyyy_mm_dd_hh'),'_',num2str(GEOID(c)),'.jpg'])
             close all
         %}
             
     %}
-
 
 
 end
