@@ -14,7 +14,6 @@ countiesToRun = chooseCounties;
 
 
 %% For each county:
-% modify to run times for Analysis 2, all times btw July 20 to Nov 20
 [countyResultsFile, timestring, inputvars, GEOID,outputFormat] = chooseCasesToRun(countiesToRun,InputFolder,OutputFolder);
 
 %%
@@ -47,8 +46,8 @@ for c = 1:length(GEOID)
             set(findall(gcf,'-property','FontSize'),'FontSize',16)
             title({'Particle Paths ';...
             ['GEOID = ', num2str(GEOID(c)),', ',datestr(timestring(c,1), 'mmmm yyyy, HHMM')]})
-            saveas(gcf,[OutputFolder,'plots/pathsPlotted_',datestr(timestring(c,1), 'yyyy_mm_dd_hh'),'_',num2str(GEOID(c)),'.jpg'])
-
+            saveas(gcf,[OutputFolder,'plots/pathsPlotted_',datestr(timestring(c,1), 'yyyy_mm_dd_hh'),'_',num2str(GEOID(c)),'.fig'])
+            close all
         %}
             
     %}
