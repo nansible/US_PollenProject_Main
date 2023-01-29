@@ -5,9 +5,9 @@ clear all
 %% Where to save output?
 %InputFolder =  'CountyTimeSeries_2016/';
 %OutputFolder =  'LSModelOutput/plotting';
-InputFolder = 'MeanCountyTimeSeries_2016/mean_';
+InputFolder = '../MeanCountyTimeSeries_2016/mean_';
 %OutputFolder =  'LSModelOutput_mean_fixed/mean_';
-OutputFolder = '/plotRogueVels_Jan25_2023/mean_';
+OutputFolder = '../plotRogueVels_Jan25_2023/mean_';
 %% Choose which counties to run
 % modify to run all cases > 100 acres of hemp
 countiesToRun = chooseCounties;
@@ -18,7 +18,7 @@ countiesToRun = chooseCounties;
 
 %%
 tic
-for c = 1:length(GEOID)
+parfor c = 1:length(GEOID)
     outputData = runLS(inputvars(c,:));
     
     countyfileID = fopen(countyResultsFile(c),'a');
