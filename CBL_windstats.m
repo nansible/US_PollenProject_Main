@@ -40,7 +40,7 @@ eps = 0.4*wstar^3/z_i + ustar^3 * (1 - z/z_i) * (1 - 15*z/L)^-.25/(.4*z);
 %% tau_v, tau_w, dt
 tau_w = 2 * sigw^2/ (C0  * eps);
 tau_u = 2 * sigu^2/ (C0  * eps);
-dt = 0.01 * min(tau_u, tau_w);
+dt = 0.005 * min(tau_u, tau_w);
 
 %% w3, dw3
 w3 = 1.2*(z/z_i)*(1 - (z/z_i))^(3/2)*wstar;
