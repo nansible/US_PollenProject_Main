@@ -105,7 +105,7 @@ for p = 1:np                %release particles in loop
                 = CBL_windstats(ustar, wstar, L, z_i, z0, C0, z);
             
             % TEMP - commented out!
-            %{
+            %
             % get langevin coefficients
             [au, bu, aw, bw] = CBL_coeffs(wp, up, wA_bar, wB_bar, sigA,...
                sigB, A, B, dwA_bar, dwB_bar, dsigA, dsigB, dA , dB,...
@@ -113,7 +113,7 @@ for p = 1:np                %release particles in loop
             %}
 
             % TEMP
-            %
+            %{
             [au, bu, aw, bw, P_A, P_B,P_E] = test_CBL_coeffs(wp, up, wA_bar, wB_bar, sigA, sigB, A, B, dwA_bar, dwB_bar, dsigA, dsigB, dA , dB, C0, eps, sigu, v_s);
             PE{p}(end+1) = P_E;
             PBexp{p}(end+1) = P_B;
