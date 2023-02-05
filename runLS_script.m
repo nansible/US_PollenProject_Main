@@ -1,4 +1,13 @@
-% DEBUG ROGUE VELS BRANCH
+% temporary change log 
+% 1_22_23 
+% parfor to for
+% uncommented all "if plotting concentration only" sections in this
+% script, ASL function, and CBL function
+% running specific county in chooseCounties
+% uncommented "a very bad case to plot" line in chooseCasesToRun and
+% commented out monthly averages times
+% changed output folder to something else
+% AM I ON A BRANCH?
 
 clear all
 
