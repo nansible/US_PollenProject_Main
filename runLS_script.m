@@ -5,7 +5,7 @@ clear all
 %% Where to save output?
 %InputFolder =  'CountyTimeSeries_2016/';
 %OutputFolder =  'LSModelOutput/plotting';
-InputFolder = 'MeanCountyTimeSeries_2016/mean_';
+InputFolder = '../MeanCountyTimeSeries_2016/mean_';
 %OutputFolder =  'LSModelOutput_mean_fixed/mean_';
 OutputFolder = 'plotMeanCases/mean_';
 %% Choose which counties to run
@@ -47,7 +47,7 @@ for c = 1:length(GEOID)
             set(findall(gcf,'-property','FontSize'),'FontSize',16)
             title({'Particle Paths ';...
             ['GEOID = ', num2str(GEOID(c)),', ',datestr(timestring(c,1), 'mmmm yyyy, HHMM')]})
-            saveas(gcf,[OutputFolder,'plots/pathsPlotted_',datestr(timestring(c,1), 'yyyy_mm_dd_hh'),'_',num2str(GEOID(c)),'.jpg'])
+            %saveas(gcf,[OutputFolder,'plots/pathsPlotted_',datestr(timestring(c,1), 'yyyy_mm_dd_hh'),'_',num2str(GEOID(c)),'.jpg'])
 
         %}
             
