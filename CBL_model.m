@@ -1,7 +1,8 @@
 function  outputData = CBL_model(ustar, wstar, L, z_i, z0)
 [h0, v_s] = plantParameters;
 
-[np, zmin,zmax, xmin, xmax, deltstart, C0, threshold, depositions] = modelingParameters(z_i, z0);
+[np, zmin,zmax, xmin, xmax, deltstart, C0, threshold,...
+    depositions] = modelingParameters(z_i, z0);
 
 % If plotting concentration:
 %
@@ -37,7 +38,7 @@ for p = 1:np                %release particles in loop
     
     % get initial wind statistics
     [wA_bar, wB_bar, sigA, sigB, A, B, ~, ~, ~, ~, ~ , ~, ~, sigu,...
-        ubar, dt] = CBL_windstats(ustar, wstar, L, z_i, z0, C0, h0);
+        ubar, dt] = CBL_windstats(ustar, wstar, L, z_i, z0, C0, h0);    
     
     % initialize particle velocities based on velocity pdfs
     wp = random(CBL_verticalPDF(wA_bar, wB_bar, sigA, sigB, A, B));
@@ -104,7 +105,7 @@ for p = 1:np                %release particles in loop
                 = CBL_windstats(ustar, wstar, L, z_i, z0, C0, z);
             
             % TEMP - commented out!
-            %
+            %{
             % get langevin coefficients
             [au, bu, aw, bw] = CBL_coeffs(wp, up, wA_bar, wB_bar, sigA,...
                sigB, A, B, dwA_bar, dwB_bar, dsigA, dsigB, dA , dB,...
@@ -112,7 +113,7 @@ for p = 1:np                %release particles in loop
             %}
 
             % TEMP
-            %{
+            %
             [au, bu, aw, bw, P_A, P_B,P_E] = test_CBL_coeffs(wp, up, wA_bar, wB_bar, sigA, sigB, A, B, dwA_bar, dwB_bar, dsigA, dsigB, dA , dB, C0, eps, sigu, v_s);
             PE{p}(end+1) = P_E;
             PBexp{p}(end+1) = P_B;

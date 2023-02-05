@@ -1,4 +1,4 @@
- function [au, bu, aw, bw, P_A_exp, P_B_exp,P_E] = test_CBL_coeffs(wp, up, wA_bar, wB_bar, sigA, sigB, A, B, dwA_bar, dwB_bar, dsigA, dsigB, dA , dB, C0, eps, sigu, v_s)
+ function [au, bu, aw, bw, P_A_exp, P_B_exp,P_E,phi,P_A,P_B] = test_CBL_coeffs(wp, up, wA_bar, wB_bar, sigA, sigB, A, B, dwA_bar, dwB_bar, dsigA, dsigB, dA , dB, C0, eps, sigu, v_s)
 
 
 %% P_A, P_B
@@ -8,13 +8,13 @@
 
 P_A_exp = ((wp - wA_bar)/(sqrt(2)*sigA))^2;
 P_B_exp = ((wp + wB_bar)/(sqrt(2)*sigB))^2;
-thresh = 5;
-if P_A_exp > thresh
-    P_A_exp = thresh;
-end
-if P_B_exp > thresh
-    P_B_exp = thresh;
-end
+% thresh = 5;
+% if P_A_exp > thresh
+%     P_A_exp = thresh;
+% end
+% if P_B_exp > thresh
+%     P_B_exp = thresh;
+% end
 
 
 P_A = exp(-P_A_exp)/((2*pi)^.5 * sigA);
