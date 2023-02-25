@@ -7,7 +7,7 @@ clear all
 %OutputFolder =  'LSModelOutput/plotting';
 InputFolder = '../MeanCountyTimeSeries_2016/mean_';
 %OutputFolder =  'LSModelOutput_mean_fixed/mean_';
-OutputFolder = '../plotRogueVels_Jan25_2023/mean_';
+OutputFolder = '../plotRogueVels_Feb25_2023/mean_';
 %% Choose which counties to run
 % modify to run all cases > 100 acres of hemp
 countiesToRun = chooseCounties;
@@ -18,11 +18,11 @@ countiesToRun = chooseCounties;
 
 %%
 tic
-parfor c = 1:length(GEOID)
+for c = 1:length(GEOID)
     outputData = runLS(inputvars(c,:));
     
     countyfileID = fopen(countyResultsFile(c),'a');
-    fprintf(countyfileID,outputFormat,GEOID(c),timestring(c,:), inputvars(c,:), outputData{1,1});
+    %fprintf(countyfileID,outputFormat,GEOID(c),timestring(c,:), inputvars(c,:), outputData{1,1});
     fclose(countyfileID);
     
     % If plotting concentration only

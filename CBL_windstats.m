@@ -43,8 +43,9 @@ tau_u = 2 * sigu^2/ (C0  * eps);
 dt = 0.01 * min(tau_u, tau_w);
 
 %% w3, dw3
-w3 = 1.2*(z/z_i)*(1 - (z/z_i))^(3/2)*wstar;
-dw3 = (6*wstar*(1 - z/z_i)^(3/2))/(5*z_i) - (9*wstar*z*(1 - z/z_i)^(1/2))/(5*z_i^2);
+% OLD, and likely a mistake, wstar should be cubed!
+% w3 = 1.2*(z/z_i)*(1 - (z/z_i))^(3/2)*wstar;
+% dw3 = (6*wstar*(1 - z/z_i)^(3/2))/(5*z_i) - (9*wstar*z*(1 - z/z_i)^(1/2))/(5*z_i^2);
 
 
 %% S, dS
